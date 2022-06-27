@@ -1,4 +1,5 @@
 const express = require('express');
+require('dotenv').config();
 const userRoutes = require('./routes/user-router');
 const categoryRoutes = require('./routes/category-router');
 const cartRoutes = require('./routes/cart-router');
